@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>other html functions</title>
+  </head>
+  <body>
+      <header>THIS IS THE HEADER</header>
+    <h1>REGISTRATION FORM</h1>
+    <div>
+      <form action="" method="">
+        <div>
+          <label for="first-name"> FIRST NAME : </label>
+          <input type="text" name="first-name" placeholder="Abhigna" required></br>
+          <label for="lname"> LAST NAME : </label>
+          <input type="text" id="lname" name="last-name" placeholder="Rayasam Prasad"></br>
+        </div>
+        <div>
+          <input type="radio" id="male" name="gender" value="Male">
+          <label for="male">MALE</label>
+          <input type="radio" id="female" name="gender" value="Female">
+          <label for="female">Female</label>
+          <input type="radio" id="other" name="gender" value="Other">
+          <label for="other">Other</label>
+        </div>
+        <div>
+          <input type="checkbox" id="car" name="vehicle1" value="car">
+          <label for="car">I own a CAR</label>
+          <input type="checkbox" id="bus" name="vechcle2" value="bus">
+          <label for="bus">I own a BUS</label>
+          <input type="submit" value="CLICK HERE!">
+        </div>
+        <div>
+          <label for="month">CHOOSE A MONTH : </label>
+          <select name="month" size="4">
+            <option value="jan">JANUARY</option>
+            <option value="feb">FEBRUARY</option>
+            <option value="mar">MARCH</option>
+            <option value="apr">APRIL</option>
+            <option value="may">MAY</option>
+            <option value="jun">JUNE</option>
+            <option value="jul">JULY</option>
+            <option value="aug" selected>AUGUST</option>
+            <option value="sep">SEPTEMBER</option>
+            <option value="oct">OCTOBER</option>
+            <option value="nov">NOVEMBER</option>
+            <option value="dec">DECEMBER</option>
+          </select>
+        </div>
+        <div>
+          <textarea name="here goes the text" rows="10" cols="30">The textarea element defines a multi-line input field (a text area):The rows attribute specifies the visible number of lines in a text area.
+
+            The cols attribute specifies the visible width of a text area. This is how the HTML code above will be displayed in a browser.</textarea>
+        </div>
+        <div>
+          <textarea name="this is text" style="height:100px;width:100px;">in this text area, its defined with the style attribute.
+            The textarea element defines a multi-line input field (a text area):The rows attribute specifies the visible number of lines in a text area.
+
+            The cols attribute specifies the visible width of a text area. This is how the HTML code above will be displayed in a browser.</textarea>
+        </div>
+        <fieldset>
+          <legend>A GROUP OF DATA</legend>
+          <label for="fielddsset">First option</label>
+          <input type="text" name="fielddsset" value="display this">
+          <label for="fieldssset">Second option</label>
+          <input type="text" name="fieldssset" value="second display">
+        </fieldset>
+        <input list="browswers" name="brow">
+        <datalist id="browswers">
+          <option value="chrome"></option>
+          <option value="internet"></option>
+          <option value="google"></option>
+          <option value="explorer"></option>
+        </datalist>
+        <button type="submit">submission done</button>
+      </form>
+    </div>
+  </body>
+</html>
