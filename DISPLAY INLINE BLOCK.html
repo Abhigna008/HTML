@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DISPLAY INLINE BLOCK</title>
+    <style>
+      span.a {
+        display: inline;
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        border: 1px solid black;
+        background-color: beige;
+      }
+      span.b {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        border: 1px solid black;
+        background-color: beige;
+      }
+      span.c {
+        display: block;
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        border: 1px solid black;
+        background-color: beige;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>THE DISPLAY INLINE BLOCK PROPERTY</h1>
+    <h3>display: inline property</h3>
+    <p>Compared to <span class="a">display: inline</span>, the major difference is that <span class="a">inline-block</span> allows to set a width and height on the element.</p>
+    <h3>display: inline-block property</h3>
+    <p>Also, with <span class="b">display: inline-block</span>, the top and bottom margins/paddings are respected, but with <span class="b">display: inline</span> they are not.</p>
+    <p>Compared to <span class="b">display: block</span>, the major difference is that <span class="b">display: inline-block</span> does not add a line-break after the element, so the element can sit next to other elements.</p>
+    <h3>display: block property</h3>
+    <p>The following example shows the different behavior of <span class="c">display: inline</span>,<span class="c">display: inline-block</span> and <span class="c">display: block</span></p>
+  </body>
+</html>
